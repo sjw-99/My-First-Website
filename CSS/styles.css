@@ -37,6 +37,7 @@ p, h1, h2, h3, a, th, td, label {
 .homePhoto {
     max-width: 25rem;
     height: auto;
+    display: block;
     vertical-align: middle;
 }
 
