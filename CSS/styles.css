@@ -38,7 +38,6 @@ p, h1, h2, h3, a, th, td, label {
     max-width: 25rem;
     height: auto;
     display: block;
-    vertical-align: middle;
 }
 
 .homeText {
@@ -50,6 +49,7 @@ p, h1, h2, h3, a, th, td, label {
     display: flex;
     gap: 1rem;
     justify-content:center
+    flex-wrap: wrap;
 }
 
 .quizButton {
