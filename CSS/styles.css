@@ -1,0 +1,103 @@
+body {
+    background-color: #EEEEEE;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B7B89F;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#777C6D
+}
+
+p, h1, h2, h3, a, th, td, label {
+    font-family: "TASA Explorer", sans-serif;
+}
+
+.active {
+  background-color:#CBCBCB;
+}
+
+.homePhoto {
+    max-width: 25rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.homeText {
+    max-width: 25rem;
+    vertical-align: middle;
+}
+
+.homeContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content:center
+}
+
+.quizButton {
+    float: right;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child{
+    display: flex;
+    margin: 5px;
+    height: 28vh;
+    width: 23%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.childColour {
+    display: flex;
+    margin: 5px;
+    height: 28vh;
+    width: 23%;
+    background-color: #B7B89F;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.timelineText {
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 1.6vh;   
+}
+
+footer {
+    background-color: #B7B89F;
+    padding: 10px 12px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
